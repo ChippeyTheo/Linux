@@ -108,7 +108,7 @@ theo        1574    1329  0 15:57 pts/0    00:00:00 grep --color=auto sleep
 **🌞 Lancer un nouveau processus sleep, mais en tâche de fond**
 
 ```bash
-[theo@localhost ~]$ sleep 1000&
+[theo@localhost ~]$ sleep 1000 &
 ```
 
 **🌞 Visualisez la commande en tâche de fond**
@@ -181,7 +181,7 @@ theo        1574    1329  0 15:57 pts/0    00:00:00 grep --color=auto sleep
 /etc/logrotate.d/nginx
 /etc/nginx
 /var/lib/nginx
-#/var/log/nginx 
+##/var/log/nginx 
 /usr/sbin/nginx
 /usr/lib64/nginx
 /usr/share/nginx
