@@ -155,20 +155,20 @@ theo        1574    1329  0 15:57 pts/0    00:00:00 grep --color=auto sleep
 
 ### II. Paquets
 
-**🌞 Installer le paquet git**
+**🌞 Installer le paquet `git`**
 
 ```bash 
 [theo@localhost ~]$ sudo dnf install git
 ```
 
-**🌞 Utiliser une commande pour lancer git**
+**🌞 Utiliser une commande pour lancer Git**
 
 ```bash
 [theo@localhost ~]$ which git
 /usr/bin/git
 ```
 
-**🌞 Installer le paquet nginx**
+**🌞 Installer le paquet `nginx`**
 
 ```bash
 [theo@localhost ~]$ sudo dnf install nginx
@@ -181,7 +181,7 @@ theo        1574    1329  0 15:57 pts/0    00:00:00 grep --color=auto sleep
 /etc/logrotate.d/nginx
 /etc/nginx
 /var/lib/nginx
-/var/log/nginx
+#/var/log/nginx 
 /usr/sbin/nginx
 /usr/lib64/nginx
 /usr/share/nginx
