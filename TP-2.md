@@ -181,7 +181,7 @@ theo        1574    1329  0 15:57 pts/0    00:00:00 grep --color=auto sleep
 /etc/logrotate.d/nginx
 /etc/nginx
 /var/lib/nginx
-##/var/log/nginx 
+*/var/log/nginx* 
 /usr/sbin/nginx
 /usr/lib64/nginx
 /usr/share/nginx
